@@ -2,83 +2,13 @@
 
 <html>
   <body>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Horizontal Navigation Bar</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #333;
-      padding: 10px 20px;
-      position: sticky;
-      top: 0;
-    }
-
-    .logo {
-      color: white;
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-    .nav-links {
-      list-style: none;
-      display: flex;
-    }
-
-    .nav-links li {
-      margin: 0 15px;
-    }
-
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      transition: color 0.3s ease;
-    }
-
-    .nav-links a:hover {
-      color: #ffcc00;
-    }
-
-    @media (max-width: 600px) {
-      .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .nav-links {
-        margin-top: 10px;
-      }
-
-      .nav-links li {
-        margin: 0 10px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <nav class="navbar">
-    <div class="logo">MyWebsite</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<nav>
+  <ul style="list-style-type:none; padding:0;">
+    <li style="display:inline; margin-right:10px;"><a href="#about">About</a></li>
+    <li style="display:inline; margin-right:10px;"><a href="#privacy">Privacy Policy</a></li>
+    <li style="display:inline;"><a href="https://gitlab.com/AbaconDev5/awesome-privacy-gitlab">GitLab Repo</a></li>
+  </ul>
+</nav>
 
     <h1>My Privacy Guide</h1>
     <p>Welcome, there, user. As you can see, this place is coded into HTML, nothing too fancy.</p>
